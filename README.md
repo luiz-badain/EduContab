@@ -1,5 +1,5 @@
 # EduContab
-<h2>Projeto demo-day do instituto PROA.</h2>.
+<h2>Projeto demo-day do instituto PROA.</h2>
 <p>Nosso projeto tem como objetivo, ajudar o Micro empreendedor individual(MEI) com auxílios contábeis para que ele consiga abrir seu comércio,
   e auxilio educacional financeiro para manter seu comércio ativo e em constante crescimento sem riscos de falência.</p>
 
