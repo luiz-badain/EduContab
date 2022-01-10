@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.formato{
+    position: relative;
+    display: flex;
+    background-attachment: fixed;
+    background-image: url(/_img/banner1.png);
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+h2{
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.foto > img{
+    width: 150px;
+    height: 220px;
+}
+
+.logo{
+    width: 60px;
+    cursor: pointer;
+}
+/*Contato*/
+.right-image{
+    width: 200px;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+/*Footer*/
+/*Retira a decoração dos links*/
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Coloca cor amarela quando o cursor passa sobre algum link do footer*/
+footer a:hover {
+    color:#f5cb5c !important;
+}
+
+/*Deixa o h5 em branco, posicionamento, tamanho e margem */
+footer .container h5 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/*Faz o efeito amarelo abaixo de cada h5*/
+footer .container h5:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f5cb5c;
+}
+
+/*Coloca cor amarela nos ícones */
+footer ul i {
+    color: #f5cb5c;
+}
+
+/*Coloca cor cinza na div de copyright  */
+footer .copy {
+    background-color: #333533;
+}
+
+footer .social:hover{
+    color: #f5cb5c;
+    cursor: pointer;
+}
+
+.nome_footer{
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+
+/*scrollbar*/
+html::-webkit-scrollbar{
+    width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#d3dbd7;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:#606160;
+    border-radius: 50px;
+}
+/*scrollbar*/

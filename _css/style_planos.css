@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*--Header--*/
+.nome{
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+/*--Planos--
+/*Coloca borda preta e arredonda o plano */
+.basico{
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/*Coloca borda amarela e arredonda o plano */
+.padrao{
+    border: 8px double #f5cb5c;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/*Coloca borda preta e arredonda o plano */
+.premium{
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+/*Tira a bolinha da lista*/
+ul li{
+    list-style: none;
+}
+
+/*coloca mais espaçamento no fim do main*/
+main{
+    padding-bottom: 150px;
+}
+/*Alinhamentos para ficar bonito */
+.alinhamento-básico{
+    margin-top: 105px;
+}
+
+.alinhamento-premium{
+    margin-top: 32px;
+}
+
+
+/*--Footer--
+/*Retira a decoração dos links*/
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+/*Coloca cor amarela quando o cursor passa sobre algum link do footer*/
+footer a:hover {
+    color:#f5cb5c !important;
+}
+/*Deixa o h5 em branco, posicionamento, tamanho e margem */
+footer .container h5 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+/*Faz o efeito amarelo abaixo de cada h5*/
+footer .container h5:before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f5cb5c;
+}
+/*Coloca cor amarela nos ícones */
+footer ul i {
+    color: #f5cb5c;
+}
+/*Coloca cor cinza na div de copyright  */
+footer .copy {
+    background-color: #333533;
+}
+
+/*Coloca a cor amarela no link de redes enquato passa o mouse*/
+footer .social:hover{
+    color: #f5cb5c;
+    cursor: pointer;
+}
+/*Altera o tamanho da logo no footer*/
+.nome_footer{
+    width: 200px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+}
+/*Fim css footer
+
+/*--scrollbar--*/
+html::-webkit-scrollbar{
+    width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#d3dbd7;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:#606160;
+    border-radius: 50px;
+}
+/*scrollbar*/

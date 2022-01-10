@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educontab | Planos</title>
+    <!--Bootstrap, font awesome, Poppins-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!--Fav Icon-->
+    <link rel="shortcut icon" href="/_img/android-icon-36x36.png" type="image/x-icon">
+    <link rel="icon" href="_img/favicon-16x16.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="/_css/style_planos.css">
+    <!-- ReactJS -->
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        function Header(){
+            return(
+            <header class="p-3 bg-dark text-white d-flex justify-content-between">
+                <div class="text-start d-flex">
+                    <img src="/_img/Educontab-nome.jpg" alt="Educontab" class="nome" />
+                </div>
+            <div class="d-flex flex-wrap align-items-center justify-content-end justify-content-lg mt-2">
+                <div class="text-end">
+                    <button type="button" class="btn btn-outline-light mx-1">Planos</button>
+                    <button type="button" class="btn btn-outline-light mx-1">FAQ</button>
+                    <button type="button" class="btn btn-outline-light mx-1">Equipe</button>
+                    <button type="button" class="btn btn-outline-light mx-1">Login</button>
+                    <button type="button" class="btn btn-outline-light mx-1">Cadastre-se</button>
+                </div>
+            </div>
+            </header>
+            );
+        }
+
+
+        function Template() {
+            return (
+                <div>
+                    <Header />
+                    
+                </div>
+            );
+        }
+
+        let template = <Template />;
+
+        ReactDOM.render(
+            template,
+            document.getElementById('root')
+        )
+    </script>
+</body>
+</html>

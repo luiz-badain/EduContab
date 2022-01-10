@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contab</title>
+    <!--Bootstrap, font awesome, Poppins-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <!-- Bootstrap Icon-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!--CSS-->
+    <link rel="stylesheet" href="_css/style-perfil.css">
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <!--Header-->
+    <header class="p-3 bg-dark text-white">
+        <div class="d-flex flex-wrap align-items-center justify-content-end justify-content-lg mt-2">
+            <div class="text-end">
+                <button type="button" class="btn btn-outline-light">Chat</button>
+                <button type="button" class="btn btn-outline-light">Planos</button>
+                <button type="button" class="btn btn-outline-light">Fórum</button>
+                <button type="button" class="btn btn-outline-light">Equipe</button>
+                <button type="button" class="btn btn-outline-light">Login</button>
+                <button type="button" class="btn btn-outline-light">Cadastre-se</button>
+            </div>
+          </div>
+    </header>
+
+
+    <!--Perfil-->
+    <main>
+        
+        <div class="container-perfil">
+            <div class="leftbox">
+                <nav>
+                    <a onclick="tabs(0)" class="tab active">
+                        <i class="fa fa-user"></i>
+                    </a>
+                    <a onclick="tabs(1)" class="tab">
+                        <i class="fa fa-credit-card"></i>
+                    </a>
+                    <a onclick="tabs(2)" class="tab">
+                        <i class="fa fa-tv"></i>
+                    </a>
+                    <a onclick="tabs(3)" class="tab">
+                        <i class="fa fa-tasks"></i>
+                    </a>
+                    <a onclick="tabs(4)" class="tab">
+                        <i class="fa fa-cog"></i>
+                    </a>
+                </nav>
+            </div>
+                <div class="rightbox">
+                    <div class="profile tabShow">
+                        <h1>Informações pessoais</h1>
+                        <h2>Nome completo</h2>
+                        <input type="text" class="input" value="EduContab">
+                        <h2>Birthday</h2>
+                        <input type="text" class="input" value="15 de dezembro, 2021">
+                        <h2>Gênero</h2>
+                        <input type="text" class="input" value="Site">
+                        <h2>Email</h2>
+                        <input type="text" class="input" value="educontab@gmail.com">
+                        <h2>Senha</h2>
+                        <input type="password" class="input" value="brightcode">
+                        <button class="btn">Salvar</button>
+                    </div>
+                    <div class="payment tabShow">
+                        <h1>Informações de pagamento</h1>
+                        <h2>Método de pagamento</h2>
+                        <input type="text" class="input" value="MasterCard - 0202 **** **** 7373">
+                        <h2>Endereço de cobrança</h2>
+                        <input type="text" class="input" value="1234 rua qualquer uma">
+                        <h2>CEP</h2>
+                        <input type="text" class="input" value="07777-777">
+                        <h2>Validade</h2>
+                        <input type="text" class="input" value="20 de janeira de 2025">
+                        <h2>CPF/CNPJ</h2>
+                        <input type="text" class="input" value="Digite seu CPF/CNPJ">
+                        <button class="btn">Salvar</button>
+                    </div>
+                    <div class="subscription tabShow">
+                        <h1>Informações de planos</h1>
+                        <h2>Dia do pagamento</h2>
+                        <p>12 de maio de 2021</p>
+                        <h2>Plano</h2>
+                        <p>Plano limitado</p>
+                        <h2>Monthly</h2>
+                        <p>R$40,00</p>
+                        <button class="btn">Salvar</button>
+                    </div> 
+                    <div class="privacy tabShow">
+                        <h1>Configurações de privacidade</h1>
+                        <a href="">Editar notificações de email</a>
+                        <a href="">Editar configurações de privacidade</a>
+                        <a href="">Termos de uso</a>
+                        <button class="btn">Salvar</button>
+                    </div>
+                    <div class="settings tabShow">
+                        <h1>Configurações de conta</h1>
+                        <a href="">Cancelar plano</a>
+                        <button class="btn">Salvar</button>
+                    </div>
+                </div>
+        </div>
+    </main>  
+
+    <script type="text/javascript" src="_js/js_perfil.js"></script>
+</body>
+</html>

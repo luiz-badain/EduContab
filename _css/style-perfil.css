@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Coloca cor cinza clara e fonte poppins*/
+body {
+    background-color: #CFDBD5;
+    font-family: 'Poppins', sans-serif;
+}
+
+main .container-perfil {
+    background-color: #fff;
+    width: 550px;
+    height: 580px;
+    margin: 0 auto;
+    position: relative !important;
+    margin-top: 5%;
+    box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
+    border-radius: 8px;
+}
+
+main .leftbox {
+    float: left;
+    top: -5%;
+    left: 5%;
+    position: absolute !important;
+    width: 10%;
+    height: 108%;
+    background: #f5cb5c;
+    box-shadow: 3px 3px 10px rgba(119, 119, 119, 0.5);
+    border: 0.1em solid #fff;
+    border-radius: 8px;
+}
+
+main nav a {
+    list-style: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 1.1em;
+    display: inline-block;
+    align-items: flex-end;
+    transition: all .3s ease-in-out;
+    margin-top: 80%;
+}
+
+main nav a:hover {
+    color: #333533;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+main nav a:first-child {
+    margin-top: 7px;
+}
+
+main nav a.active {
+    color: #333533;
+}
+
+main .rightbox {
+    width: 60%;
+    margin-left: 26%;
+    padding-top: 2px;
+    
+}
+
+main .tabShow {
+    transition: all 0.5s ease-in;
+    width: 50%;
+}
+
+main h1 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+main h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+main .input, p {
+    border: 0;
+    border-bottom: 1px solid #f5cb5c;
+    width: 120%;
+    font-size: 14px;
+    padding: 7px 0;
+    color: #000;
+    outline: none;
+}
+
+main span {
+    font-size: 0.7em;
+    color: black;
+}
+
+main .btn {
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0;
+    color: #fff;
+    background: #333533;
+    box-shadow:  0px 2px 4px 0px rgba(0,0,0,0.2);
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+main .privacy a {
+    text-decoration: none;
+    color: #333533;
+    display: inline-block;
+    padding: 10px;
+}
+
+main .privacy  a:hover {
+    color: #f5cb5c;
+}
+
+main .settings a {
+    text-decoration: none;
+    color: #333533;
+    display: inline-block;
+    padding: 10px;
+}
+
+main .settings a:hover {
+    color:#f5cb5c;
+}
+
+.tabShow {
+    display: none;
+}
