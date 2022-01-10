@@ -1,2 +1,2 @@
 # EduContab
-Projeto demo-day dos instituto PROA
+Projeto demo-day do instituto PROA
